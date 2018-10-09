@@ -41,6 +41,8 @@ def breed(NMAX):
             if (prb < 0.3):
                 figlio.mutation()
         gen += 1
+        
+        print("Trovato!")
               
 breed(100)
         
